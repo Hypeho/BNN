@@ -1,0 +1,69 @@
+{
+  "source": "/home/hosung/Ho/MSMLab_workspace/RV32I-Project/FPGA/BNN/260719_FINN_CNV_RV32I/generated/cnv_params.h",
+  "weight_bytes_used": 206464,
+  "weight_bytes_allocated": 409600,
+  "layers": [
+    {
+      "name": "W1",
+      "offset_bytes": 0,
+      "kernel_stride_bytes": 16,
+      "input_bits": 64,
+      "outputs": 64
+    },
+    {
+      "name": "W2",
+      "offset_bytes": 9216,
+      "kernel_stride_bytes": 16,
+      "input_bits": 64,
+      "outputs": 128
+    },
+    {
+      "name": "W3",
+      "offset_bytes": 27648,
+      "kernel_stride_bytes": 16,
+      "input_bits": 128,
+      "outputs": 128
+    },
+    {
+      "name": "W4",
+      "offset_bytes": 46080,
+      "kernel_stride_bytes": 16,
+      "input_bits": 128,
+      "outputs": 256
+    },
+    {
+      "name": "W5",
+      "offset_bytes": 82944,
+      "kernel_stride_bytes": 32,
+      "input_bits": 256,
+      "outputs": 256
+    },
+    {
+      "name": "FC0",
+      "offset_bytes": 156672,
+      "neuron_stride_bytes": 32,
+      "input_bits": 256,
+      "outputs": 512
+    },
+    {
+      "name": "FC1",
+      "offset_bytes": 173056,
+      "neuron_stride_bytes": 64,
+      "input_bits": 512,
+      "outputs": 512
+    },
+    {
+      "name": "FC2",
+      "offset_bytes": 205824,
+      "neuron_stride_bytes": 64,
+      "input_bits": 512,
+      "outputs": 10
+    }
+  ],
+  "sha256": {
+    "weight_128.hex": "81f83a37c41a9194a6061f16f4b00729271633906b625c0d3a5ca340a660c77f",
+    "activation0.hex": "e2a781641ce9637c52daea07f06ac16fe70ee751f4f4261477f77d6372a0f329",
+    "activation1.hex": "e2a781641ce9637c52daea07f06ac16fe70ee751f4f4261477f77d6372a0f329",
+    "cnv_bdot_params.h": "c4579ad6e95643257b3ae8ab906142530098b6531a1a2fb3bd37cc278de5bb60"
+  }
+}

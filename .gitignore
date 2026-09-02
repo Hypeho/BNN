@@ -1,0 +1,66 @@
+# Vivado/XSim generated files
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.vcd
+*.saif
+
+# Compiled firmware and simulator artifacts
+build/
+*.elf
+*.bin
+*.o
+*.map
+*.vvp
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv*/
+
+# Generated experiment outputs
+results/*
+!results/.gitkeep
+!results/*.csv
+!results/*.md
+models/*/results/*
+!models/*/results/.gitkeep
+!models/*/results/*.csv
+!models/*/results/*.md
+models/*/logs/*
+!models/*/logs/.gitkeep
+models/*/vectors/generated/
+models/*/work/
+
+# Local Vivado workspaces
+vivado_workspace/
+*.cache/
+*.gen/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.xpr
+*.xsa
+*.bit
+
+# Archives, backups, editor files, and OS metadata
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tgz
+*.bak
+*.backup
+*.tmp
+*.swp
+*.orig
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

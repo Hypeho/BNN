@@ -1,0 +1,15 @@
+{
+  "model": "eBNN Binary-MNIST",
+  "conv": {
+    "input_bits": 9,
+    "outputs": 10,
+    "stride_bytes": 16
+  },
+  "fc": {
+    "input_bits": 360,
+    "outputs": 10,
+    "stride_bytes": 48
+  },
+  "weight_bytes_used": 640,
+  "weight_bytes_allocated": 409600
+}

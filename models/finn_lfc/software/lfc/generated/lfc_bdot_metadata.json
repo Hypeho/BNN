@@ -1,0 +1,52 @@
+{
+  "source": "/home/hosung/Ho/MSMLab_workspace/RV32I-Project/FPGA/BNN/260719_FINN_LFC_RV32I/generated/lfc_params.h",
+  "prediction": 5,
+  "scores": [
+    -182,
+    -94,
+    -34,
+    326,
+    -162,
+    556,
+    54,
+    6,
+    216,
+    -96
+  ],
+  "weight_words_used": 94528,
+  "weight_bytes_used": 378112,
+  "weight_words_allocated": 102400,
+  "activation_words_allocated": 8192,
+  "layers": [
+    {
+      "name": "W0",
+      "offset_bytes": 0,
+      "stride_bytes": 112,
+      "neurons": 1024
+    },
+    {
+      "name": "W1",
+      "offset_bytes": 114688,
+      "stride_bytes": 128,
+      "neurons": 1024
+    },
+    {
+      "name": "W2",
+      "offset_bytes": 245760,
+      "stride_bytes": 128,
+      "neurons": 1024
+    },
+    {
+      "name": "W3",
+      "offset_bytes": 376832,
+      "stride_bytes": 128,
+      "neurons": 10
+    }
+  ],
+  "sha256": {
+    "weight_128.hex": "0468f379aa98cf070b90174cedfd8f179753b0891a294349300839a28c9678ce",
+    "activation0.hex": "c0b429d305eaaa078b25ccb359fcbc0d52cdb2001b429ef0fd60fc333b68c0a0",
+    "activation1.hex": "e2a781641ce9637c52daea07f06ac16fe70ee751f4f4261477f77d6372a0f329",
+    "lfc_bdot_params.h": "39803e3df0373097c3b988e1b7230de6a0d17ebbf50531e198615b51207d56ec"
+  }
+}
